@@ -13,8 +13,8 @@
 	text-align: center;
 	font-family: 'Georgia', serif;
 	background-color: black;
-
-	.header {
+}
+/*	.header {
 	height: auto;
 	font-weight: bold;
 	font-size: 50px;
@@ -22,22 +22,18 @@
 	font-family: 'Georgia', serif;
 	background-color: black;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a text shadow */
-}
 
-}
 h4 {
 	font-style: italic;
-	font-size: 40px;
 	font-family: 'Georgia', serif;
 }
-h3 {
-	font-size: 30px;
-}
-
 
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+	.footer p {
+		background-color: skyblue;
+	}
  .list {
  	float: none;
  	min-width: 90%;
@@ -49,4 +45,26 @@ h3 {
  	min-width: 90%;
  	margin-right: 10px;
  }
+}
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%; 
+  margin: 0 auto; 
+}
+
+#story p {
+  text-align: left; 
+}
+#dom-wrapper{
+	display: block;
+  margin: 0 auto;
+  width: 40vw;
+  text-align: right;
+}
+#dom{
+	width: 40vw;
+}
+#dom-cap{
+	font-size: 10px;
 }
